@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+    <html lang='sv'>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <link rel="stylesheet" href="../css/ProjektCSS.css">
+            <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+            <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+            <title>Victorias Portfolio</title>
+        </head>
+        <body>
+            <nav>
+                <div class="logo">
+                    <h4 class="rubrik">Här kan du kontakta oss</h4>
+                </div>
+                <ul class="menySidor">
+                    <li>
+                        <a href='../html/Index.html'>Startsida</a>
+                    </li>
+                    <li>
+                        <a href='../html/Medlemmar.html'>Medlemmar</a>
+                    </li>
+                    <li>
+                        <a href='../html/Projekt.html'>Projekt</a>
+                    </li>
+                    <li>
+                        <a class="borderFokus" href='../html/Kontakt.html'>Kontakt</a>
+                    </li>
+                </ul>
+                <div class="mobilNavigation">
+                    <div class="linje1"></div>
+                    <div class="linje2"></div>
+                    <div class="linje3"></div>
+                </div>
+            </nav>
+            <div class="fadeIN">
+                <div class="contentKontakt"> 
+                    <div class="kontaktRuta">
+                        <form>
+                            <label for="kontaktNamn" class="kontaktRubrik">Namn
+                                <input type="text" id="kontaktNamn" name="namn" placeholder="Ditt namn.."> 
+                            </label>
+                            <ul class="namnKrav">
+                                <li id="namnValidering">Namnet får endast innehålla bokstäver</li>
+                            </ul>
+            
+                            <label for="telefon" class="kontaktRubrik">Telefonnummer
+                                <input type="text" id="telefon" name="telefonnummer" placeholder="Ditt telefonnummer..">  
+                            </label>
+                            <ul class="telefonKrav">
+                                <li id="telefonValidering">Får bara innehålla siffror</li>
+                            </ul>
+            
+                            <label for="epost" class="kontaktRubrik">E-postadress
+                                <input type="text" id="epost" name="epost" placeholder="Din e-postadress..">
+                            </label>
+                            <ul class="epostKrav">
+                                <li id="epostValidering">Skriv in en giltig E-postadress (exempel@gmail.com)</li>
+                            </ul>
+                                
+                            <label for="meddelande" class="kontaktRubrik">Meddelande
+                                <textarea id="meddelande" name="meddelande" placeholder="Skriv ditt meddelande.." style="height: 200px;"></textarea>
+                            </label>
+                            <ul class="meddelandeKrav">
+                                <li id="meddelandeValidering">Måste vara minst 10 bokstäver</li>
+                            </ul>
+                            <input class="skicka" id="skickaFormulär" type="submit" value="Skicka" onclick="sparaData()">
+                        </form>
+                        <div class="karta"><p class="textTillKarta">Här befinner vi oss!</p><iframe class="kontaktKarta" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2036.8962774103547!2d18.101329716219244!3d59.301289481649036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff34216f225e9%3A0x775452ce735f263c!2sChangemaker%20Educations%20AB!5e0!3m2!1ssv!2sse!4v1666472403784!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+                        <button id="hideKarta">Göm karta</button>
+                    </div>
+                </div>
+            </div>
+            <script src="../js/ProjektJavaScript.js"></script>
+            <script src="../js/JSONObjekt.js"></script>
+            <script src="../js/ProjektJQuery.js"></script>
+        </body>
+    </html>
