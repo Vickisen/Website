@@ -260,7 +260,7 @@ nav {
 }
 
 
-/* Programmerare */
+/* Medlemmar */
 .profilBilderMedNamn {
     width: 100%;
     height: 100%;
@@ -328,7 +328,7 @@ nav {
 }
 
 
-/* Programmerare ändrad layout */
+/* Medlemmar ändrad layout */
 @media screen and (max-width: 900px) {
 
     #bildFluffy,
@@ -372,7 +372,6 @@ nav {
         height: 440px;
     }
 }
-
 
 
 /* Sida Fluffy */

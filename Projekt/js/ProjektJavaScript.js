@@ -1,5 +1,5 @@
 /* Meny MobilVy */
-const menyAnimation = () => {
+    const menyAnimation = () => {
     const mobilNavigation = document.querySelector('.mobilNavigation');
     const meny = document.querySelector('.menySidor');
     const menySidor = document.querySelectorAll('.menySidor li');
