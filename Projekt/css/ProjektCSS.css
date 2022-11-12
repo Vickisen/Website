@@ -49,11 +49,11 @@ nav {
     width: 28%;
 }
 
-.menySidor li{
+.menySidor li {
     list-style: none;
 }
 
-.menySidor a{
+.menySidor a {
     color: white;
     text-decoration: none;
     letter-spacing: 3px;
@@ -66,7 +66,7 @@ nav {
     cursor: pointer;
 }
 
-.mobilNavigation div{
+.mobilNavigation div {
     width: 25px;
     height: 3px;
     margin: 5px;
@@ -81,24 +81,26 @@ nav {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
 }
 
 /* Generellt ändrad layout */
-@media screen and (max-width: 1168px){
+@media screen and (max-width: 1168px) {
     .menySidor {
         width: 43%;
     }
 }
 
-@media screen and (max-width: 768px){
-    body{
+@media screen and (max-width: 768px) {
+    body {
         overflow-x: hidden;
     }
-    .menySidor{
-        position : absolute;
+
+    .menySidor {
+        position: absolute;
         right: 0px;
         height: 92vh;
         top: 8vh;
@@ -111,26 +113,29 @@ nav {
         transition: transform 0.5s ease-in;
         z-index: 9;
     }
-    .menySidor li{
+
+    .menySidor li {
         opacity: 0;
     }
-    .mobilNavigation{
+
+    .mobilNavigation {
         display: block;
     }
 }
 
 
-.aktiveraMeny{
+.aktiveraMeny {
     transform: translateX(0%);
 }
 
-@keyframes menySidorFade{
-    from{
+@keyframes menySidorFade {
+    from {
         opacity: 0;
         transform: translateX(50px);
     }
-    to{
-        opacity: 1; 
+
+    to {
+        opacity: 1;
         transform: translateX(0px);
     }
 }
@@ -205,7 +210,7 @@ nav {
 
 
 /* Startsida ändrad layout */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
     #enBild {
         width: 400px;
         height: 400px;
@@ -226,11 +231,11 @@ nav {
     }
 }
 
-@media screen and (max-width: 768px){  
+@media screen and (max-width: 768px) {
     .startsidaContent {
         display: block;
     }
-    
+
     #enBild {
         width: 300px;
         height: 300px;
@@ -273,7 +278,8 @@ nav {
     justify-content: center;
 }
 
-#bildFluffy, #bildSimba {
+#bildFluffy,
+#bildSimba {
     margin: 40px 20px 20px 20px;
     border-radius: 10px;
     filter: drop-shadow(0px 5px 3px black);
@@ -323,8 +329,10 @@ nav {
 
 
 /* Programmerare ändrad layout */
-@media screen and (max-width: 900px){
-    #bildFluffy, #bildSimba {
+@media screen and (max-width: 900px) {
+
+    #bildFluffy,
+    #bildSimba {
         width: 320px;
         height: 320px;
     }
@@ -334,12 +342,13 @@ nav {
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .profilBilderMedNamn {
         display: block;
     }
 
-    .profilFluffy, .profilSimba {
+    .profilFluffy,
+    .profilSimba {
         width: 100%;
         align-items: center;
     }
@@ -350,7 +359,7 @@ nav {
         width: 300px;
         height: 300px;
     }
-    
+
     #bildSimba {
         margin: 0 0 10px 0;
         border-radius: 10px;
@@ -416,7 +425,10 @@ nav {
     justify-content: center;
 }
 
-.skill1Fluffy, .skill2Fluffy, .skill3Fluffy,.skill4Fluffy {
+.skill1Fluffy,
+.skill2Fluffy,
+.skill3Fluffy,
+.skill4Fluffy {
     height: 20px;
     border-style: solid;
     border-width: 0px;
@@ -454,6 +466,7 @@ nav {
     0% {
         width: 0%;
     }
+
     100% {
         width: 100%;
     }
@@ -463,6 +476,7 @@ nav {
     0% {
         width: 0%;
     }
+
     100% {
         width: 90%;
     }
@@ -472,6 +486,7 @@ nav {
     0% {
         width: 0%;
     }
+
     100% {
         width: 80%;
     }
@@ -481,6 +496,7 @@ nav {
     0% {
         width: 0%;
     }
+
     100% {
         width: 70%;
     }
@@ -517,10 +533,11 @@ nav {
     filter: drop-shadow(0px 5px 3px #505B75);
 }
 
-
 /* Sida Fluffy ändrad layout */
-@media screen and (max-width: 900px){
-    #bildFluffySida, .skillsFluffy {
+@media screen and (max-width: 900px) {
+
+    #bildFluffySida,
+    .skillsFluffy {
         width: 320px;
         height: 320px;
     }
@@ -534,7 +551,7 @@ nav {
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .profilFluffySida {
         display: block;
     }
@@ -569,7 +586,6 @@ nav {
     }
 }
 
-
 /* Sida Simba */
 .profilSimbaSida {
     display: flex;
@@ -582,6 +598,7 @@ nav {
     display: flex;
     justify-content: center;
 }
+
 .skillsSimba {
     width: 360px;
     height: 360px;
@@ -612,7 +629,10 @@ nav {
     justify-content: center;
 }
 
-.skill1Simba, .skill2Simba, .skill3Simba, .skill4Simba {
+.skill1Simba,
+.skill2Simba,
+.skill3Simba,
+.skill4Simba {
     height: 20px;
     border-style: solid;
     border-width: 0px;
@@ -650,6 +670,7 @@ nav {
     0% {
         width: 0%;
     }
+
     100% {
         width: 100%;
     }
@@ -659,6 +680,7 @@ nav {
     0% {
         width: 0%;
     }
+
     100% {
         width: 90%;
     }
@@ -668,6 +690,7 @@ nav {
     0% {
         width: 0%;
     }
+
     100% {
         width: 80%;
     }
@@ -677,6 +700,7 @@ nav {
     0% {
         width: 0%;
     }
+
     100% {
         width: 70%;
     }
@@ -714,8 +738,10 @@ nav {
 }
 
 /* Sida Simba ändrad layout */
-@media screen and (max-width: 900px){
-    #bildSimbaSida, .skillsSimba {
+@media screen and (max-width: 900px) {
+
+    #bildSimbaSida,
+    .skillsSimba {
         width: 320px;
         height: 320px;
     }
@@ -729,7 +755,7 @@ nav {
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .profilSimbaSida {
         display: block;
     }
@@ -781,13 +807,13 @@ nav {
 
 /* Projekt layout */
 .projektContent {
-    width: 100%;    
+    width: 100%;
 }
 
 .projektInformation {
     font-size: 25px;
     text-align: center;
-    margin : 20px;
+    margin: 20px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -796,7 +822,9 @@ nav {
     margin: 20px;
 }
 
-.projektEtt, .projektTva, .projektTre {
+.projektEtt,
+.projektTva,
+.projektTre {
     text-align: center;
     vertical-align: middle;
     display: flex;
@@ -804,7 +832,10 @@ nav {
     align-content: center;
 }
 
-.projektEttText, .projektTvaUnity, .projektTvaMobil, .projektTreText {
+.projektEttText,
+.projektTvaUnity,
+.projektTvaMobil,
+.projektTreText {
     width: 400px;
     height: 400px;
     margin: 40px 20px 20px 0px;
@@ -818,7 +849,8 @@ nav {
     filter: drop-shadow(0px 5px 3px #505B75);
 }
 
-#musik, #portfolio{
+#musik,
+#portfolio {
     border-radius: 10px;
     margin: 40px 0px 20px 20px;
     float: left;
@@ -830,7 +862,7 @@ nav {
 }
 
 .projektTvaMobil {
-    display: none;   
+    display: none;
 }
 
 .projektTvaBild img {
@@ -849,12 +881,17 @@ nav {
 }
 
 /* Projekt ändrad layout */
-@media screen and (max-width: 1000px){
-    #musik, #unity, #portfolio {
+@media screen and (max-width: 1000px) {
+
+    #musik,
+    #unity,
+    #portfolio {
         width: 435px;
     }
 
-    .projektEttText, .projektTvaUnity, .projektTreText {
+    .projektEttText,
+    .projektTvaUnity,
+    .projektTreText {
         width: 276px;
     }
 }
@@ -875,7 +912,7 @@ nav {
         height: 300px;
     }
 
-    #musik{
+    #musik {
         width: 300px;
         height: 300px;
         float: none;
@@ -895,7 +932,7 @@ nav {
         display: none;
     }
 
-    #unity{
+    #unity {
         width: 300px;
         height: 300px;
         float: none;
@@ -906,7 +943,7 @@ nav {
         display: block;
     }
 
-    #portfolio{
+    #portfolio {
         width: 300px;
         height: 300px;
         float: none;
@@ -943,12 +980,12 @@ nav {
 .kontaktRuta {
     font-family: 'Roboto Condensed', sans-serif;
     border-radius: 10px;
-    background-color:#919BB2;
+    background-color: #919BB2;
     padding: 20px;
     margin: 40px auto 40px auto;
     width: 540px;
     filter: drop-shadow(0px 5px 3px #505B75);
-    
+
 }
 
 form {
@@ -962,12 +999,19 @@ form {
     color: black;
 }
 
-#kontaktNamn, #telefon, #epost, #meddelande, .skicka {
+#kontaktNamn,
+#telefon,
+#epost,
+#meddelande,
+.skicka {
     border-radius: 10px;
     margin: 7px 0px 0px 0px;
 }
 
-#namnValidering, #telefonValidering, #epostValidering, #meddelandeValidering {
+#namnValidering,
+#telefonValidering,
+#epostValidering,
+#meddelandeValidering {
     margin-top: -2.5%;
     margin-bottom: -2.5%;
     margin-left: 20px;
@@ -981,7 +1025,8 @@ form {
     border-color: rgb(6, 2, 247);
 }
 
-input[type=text], textarea {
+input[type=text],
+textarea {
     width: 100%;
     padding: 12px;
     border: 2px solid darkgrey;
@@ -1049,9 +1094,14 @@ input[type=text], textarea {
     .kontaktRuta {
         width: 300px;
     }
-    #namnValidering, #telefonValidering, #epostValidering, #meddelandeValidering {
+
+    #namnValidering,
+    #telefonValidering,
+    #epostValidering,
+    #meddelandeValidering {
         margin-top: -5%;
     }
+
     #kontaktInformation {
         font-size: 14px;
     }
@@ -1064,8 +1114,11 @@ input[type=text], textarea {
         width: 260px;
         height: 260px;
     }
-    
-    .namnKrav, .telefonKrav, .epostKrav, .meddelandeKrav {
+
+    .namnKrav,
+    .telefonKrav,
+    .epostKrav,
+    .meddelandeKrav {
         margin: 0px 0px -17px 0px;
     }
 }
