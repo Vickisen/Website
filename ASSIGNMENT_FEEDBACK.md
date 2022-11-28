@@ -8,8 +8,6 @@ I would like you to look at the contact form, and also see if you can break the 
 
 But that is just for your own knowledge - you have clearly demonstrated you know what you are doing and have earned a Välgodkänt grade!  Well done!
 
-
-
 *************************************
 
 CRITERIA FOR GRADING
@@ -67,4 +65,4 @@ Code Style:
   CSS: ✅
   Beautiful!
 
-  File names should always be in lower case
+  File names should always be in lower case 
